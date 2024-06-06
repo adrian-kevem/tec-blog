@@ -1,0 +1,143 @@
+/* Reset CSS */ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos globais */
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+    font-size: 1em;
+}
+
+/* ESTILOS PÁGINA HOME */
+
+/* Estilos cabeçalho */
+
+header {
+    width: 100%;
+    background-color: orange;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    color: #4e4e4e;
+    padding: 15px;
+    font-size: 2.5em;
+}
+
+header nav {
+    padding: 15px;
+}
+
+header nav a:link, header nav a:visited {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+header nav a:hover {
+    text-decoration: none;
+    color: orange;
+    background-color: white;
+    font-weight: bold;
+}
+
+/* Estilos conteúdo principal */
+
+main {
+    width: 920px;
+    margin: 0 auto;
+}
+
+section {
+    float: left;
+    width: 660px;
+    margin-right: 10px;
+}
+
+section article {
+    padding: 10px;
+    background-color: white;
+    margin: 10px 0 0 0;
+}
+
+section article h2, section article span, section article p, section article a {
+    margin: 10px 0;
+}   
+
+section article h2 {
+    color: orange;
+}
+
+section article span {
+    font-size: 0.8em;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
+section article img {
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+section article a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+section article a:hover {
+    text-decoration: underline;
+}
+
+aside {
+    float: right;
+    width: 240px;
+    margin: 10px 0;
+}
+
+aside article {
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+}
+
+aside article h3 {
+    background-color: #CCCCCC;
+    padding: 5px;
+}
+
+aside article p, aside article li, aside article a {
+    padding: 10px 0;
+}
+
+aside article a {
+    color: orange;
+    text-decoration: none;
+}
+
+aside article a:hover {
+    text-decoration: underline;
+}
+
+aside article li {
+    list-style-type: none;
+}
+
+/* Estilos rodapé */
+
+footer {
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 20px;
+    clear: both;
+    font-weight: bolder;
+}
